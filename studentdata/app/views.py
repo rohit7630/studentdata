@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, HttpResponseRedirect
 from .models import Student
 from django.http import HttpResponse
 from .forms import StudentRegistration
-
+from django.contrib import messages
 
 def index(request):
   stu = Student.objects.all()
