@@ -1,0 +1,8 @@
+<div class = "main">
+    <form method="post">
+        {%csrf_token%}
+       Are you sure to delete the student name {{student.name}} 
+        <input type ="Submit" value="yes">
+        <a href="{% url 'index' %}" class="btn btn-primary active">Cancel</a>
+    </form>
+</div>

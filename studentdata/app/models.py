@@ -10,3 +10,7 @@ class Student(models.Model):
     state = models.CharField(max_length=50, null=False)
     pincode = models.CharField(null=False,blank=False,max_length=7)
 
+
+
+
+
